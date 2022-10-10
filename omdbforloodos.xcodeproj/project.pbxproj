@@ -7,23 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA64FCC928F47C0300F0C3A0 /* CustomToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA64FCC828F47C0300F0C3A0 /* CustomToast.swift */; };
+		AA64FCCD28F4B68900F0C3A0 /* AnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA64FCCC28F4B68900F0C3A0 /* AnimationController.swift */; };
+		AA90EFC828F3028E00737DF1 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA90EFC728F3028E00737DF1 /* Reachability.swift */; };
+		AA90EFCA28F3031800737DF1 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA90EFC928F3031800737DF1 /* SplashViewController.swift */; };
+		AA90EFCC28F3055000737DF1 /* NetworkErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA90EFCB28F3055000737DF1 /* NetworkErrorViewController.swift */; };
+		AA90EFD428F33AF300737DF1 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA90EFD328F33AF300737DF1 /* LoadingView.swift */; };
+		AAC6C87728F3FC3B009BD751 /* loodos.gif in Resources */ = {isa = PBXBuildFile; fileRef = AAC6C87628F3FC3B009BD751 /* loodos.gif */; };
+		AAC6C87928F41573009BD751 /* MovieDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC6C87828F41573009BD751 /* MovieDetailViewModel.swift */; };
+		AAC6C87B28F416F8009BD751 /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC6C87A28F416F8009BD751 /* YoutubeSearchResponse.swift */; };
+		AAC6C87D28F41ACF009BD751 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC6C87C28F41ACF009BD751 /* MovieDetailViewController.swift */; };
+		AAEB7B2D28F43F9B009B0AC5 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = AAEB7B2C28F43F9B009B0AC5 /* SDWebImage */; };
+		AAEB7B2F28F43F9B009B0AC5 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AAEB7B2E28F43F9B009B0AC5 /* SDWebImageMapKit */; };
 		AAF22EAB28F05EA500F94356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF22EAA28F05EA500F94356 /* AppDelegate.swift */; };
 		AAF22EAD28F05EA500F94356 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF22EAC28F05EA500F94356 /* SceneDelegate.swift */; };
-		AAF22EAF28F05EA500F94356 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF22EAE28F05EA500F94356 /* ViewController.swift */; };
-		AAF22EB228F05EA500F94356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF22EB028F05EA500F94356 /* Main.storyboard */; };
 		AAF22EB428F05EA700F94356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAF22EB328F05EA700F94356 /* Assets.xcassets */; };
 		AAF22EB728F05EA700F94356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF22EB528F05EA700F94356 /* LaunchScreen.storyboard */; };
+		AAF22EC428F1641200F94356 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF22EC328F1641200F94356 /* HomeViewController.swift */; };
+		AAF22EC628F1645A00F94356 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF22EC528F1645A00F94356 /* SearchResultViewController.swift */; };
+		AAF22ECE28F173D800F94356 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF22ECD28F173D800F94356 /* APICaller.swift */; };
+		AAF22ED428F18DA400F94356 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AAF22ED328F18DA400F94356 /* GoogleService-Info.plist */; };
+		AAF22ED628F1C30E00F94356 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF22ED528F1C30E00F94356 /* Movie.swift */; };
+		AAF22ED828F2CEC700F94356 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF22ED728F2CEC700F94356 /* MovieCollectionViewCell.swift */; };
+		B8E04264DE196CAF910D1D41 /* Pods_omdbforloodos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6127D16D0CCDF58EDAE5F5A8 /* Pods_omdbforloodos.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55065D7DD99CB9E39A9B73BC /* Pods-omdbforloodos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-omdbforloodos.debug.xcconfig"; path = "Target Support Files/Pods-omdbforloodos/Pods-omdbforloodos.debug.xcconfig"; sourceTree = "<group>"; };
+		6127D16D0CCDF58EDAE5F5A8 /* Pods_omdbforloodos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_omdbforloodos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62332D204E71B5627193761 /* Pods-omdbforloodos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-omdbforloodos.release.xcconfig"; path = "Target Support Files/Pods-omdbforloodos/Pods-omdbforloodos.release.xcconfig"; sourceTree = "<group>"; };
+		AA64FCC728F4583300F0C3A0 /* omdbforloodos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = omdbforloodos.entitlements; sourceTree = "<group>"; };
+		AA64FCC828F47C0300F0C3A0 /* CustomToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToast.swift; sourceTree = "<group>"; };
+		AA64FCCC28F4B68900F0C3A0 /* AnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationController.swift; sourceTree = "<group>"; };
+		AA90EFC728F3028E00737DF1 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		AA90EFC928F3031800737DF1 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		AA90EFCB28F3055000737DF1 /* NetworkErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrorViewController.swift; sourceTree = "<group>"; };
+		AA90EFD328F33AF300737DF1 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		AAC6C87628F3FC3B009BD751 /* loodos.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loodos.gif; sourceTree = "<group>"; };
+		AAC6C87828F41573009BD751 /* MovieDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewModel.swift; sourceTree = "<group>"; };
+		AAC6C87A28F416F8009BD751 /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
+		AAC6C87C28F41ACF009BD751 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 		AAF22EA728F05EA500F94356 /* omdbforloodos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = omdbforloodos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF22EAA28F05EA500F94356 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAF22EAC28F05EA500F94356 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AAF22EAE28F05EA500F94356 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AAF22EB128F05EA500F94356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAF22EB328F05EA700F94356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAF22EB628F05EA700F94356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAF22EB828F05EA700F94356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAF22EC328F1641200F94356 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AAF22EC528F1645A00F94356 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		AAF22ECD28F173D800F94356 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		AAF22ED328F18DA400F94356 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AAF22ED528F1C30E00F94356 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		AAF22ED728F2CEC700F94356 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +66,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAEB7B2D28F43F9B009B0AC5 /* SDWebImage in Frameworks */,
+				AAEB7B2F28F43F9B009B0AC5 /* SDWebImageMapKit in Frameworks */,
+				B8E04264DE196CAF910D1D41 /* Pods_omdbforloodos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F0D1602D743ADC832549579 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55065D7DD99CB9E39A9B73BC /* Pods-omdbforloodos.debug.xcconfig */,
+				A62332D204E71B5627193761 /* Pods-omdbforloodos.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		97A71083C9F859ACA13734EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6127D16D0CCDF58EDAE5F5A8 /* Pods_omdbforloodos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA64FCCA28F4B5AE00F0C3A0 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				AAF22EC528F1645A00F94356 /* SearchResultViewController.swift */,
+				AA90EFCB28F3055000737DF1 /* NetworkErrorViewController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		AA64FCCB28F4B5B400F0C3A0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AAF22EC328F1641200F94356 /* HomeViewController.swift */,
+				AAC6C87C28F41ACF009BD751 /* MovieDetailViewController.swift */,
+				AA90EFC928F3031800737DF1 /* SplashViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		AAF22E9E28F05EA500F94356 = {
 			isa = PBXGroup;
 			children = (
 				AAF22EA928F05EA500F94356 /* omdbforloodos */,
 				AAF22EA828F05EA500F94356 /* Products */,
+				2F0D1602D743ADC832549579 /* Pods */,
+				97A71083C9F859ACA13734EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +132,75 @@
 		AAF22EA928F05EA500F94356 /* omdbforloodos */ = {
 			isa = PBXGroup;
 			children = (
+				AA64FCC728F4583300F0C3A0 /* omdbforloodos.entitlements */,
+				AAF22ED928F2CF1600F94356 /* Core */,
+				AAF22EC228F098AC00F94356 /* Controllers */,
+				AAF22EC128F06FBC00F94356 /* ViewModels */,
+				AAF22EC028F06FAE00F94356 /* Managers */,
+				AAF22EBF28F06F9600F94356 /* Models */,
+				AAF22EBE28F06F8A00F94356 /* Views */,
+			);
+			path = omdbforloodos;
+			sourceTree = "<group>";
+		};
+		AAF22EBE28F06F8A00F94356 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AAF22ED728F2CEC700F94356 /* MovieCollectionViewCell.swift */,
+				AA90EFD328F33AF300737DF1 /* LoadingView.swift */,
+				AA64FCC828F47C0300F0C3A0 /* CustomToast.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AAF22EBF28F06F9600F94356 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AAF22ED528F1C30E00F94356 /* Movie.swift */,
+				AAC6C87A28F416F8009BD751 /* YoutubeSearchResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AAF22EC028F06FAE00F94356 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				AA90EFC728F3028E00737DF1 /* Reachability.swift */,
+				AAF22ECD28F173D800F94356 /* APICaller.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		AAF22EC128F06FBC00F94356 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AAC6C87828F41573009BD751 /* MovieDetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AAF22EC228F098AC00F94356 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AA64FCCB28F4B5B400F0C3A0 /* Core */,
+				AA64FCCA28F4B5AE00F0C3A0 /* General */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AAF22ED928F2CF1600F94356 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AAC6C87628F3FC3B009BD751 /* loodos.gif */,
+				AAF22ED328F18DA400F94356 /* GoogleService-Info.plist */,
 				AAF22EAA28F05EA500F94356 /* AppDelegate.swift */,
 				AAF22EAC28F05EA500F94356 /* SceneDelegate.swift */,
-				AAF22EAE28F05EA500F94356 /* ViewController.swift */,
-				AAF22EB028F05EA500F94356 /* Main.storyboard */,
 				AAF22EB328F05EA700F94356 /* Assets.xcassets */,
 				AAF22EB528F05EA700F94356 /* LaunchScreen.storyboard */,
 				AAF22EB828F05EA700F94356 /* Info.plist */,
+				AA64FCCC28F4B68900F0C3A0 /* AnimationController.swift */,
 			);
-			path = omdbforloodos;
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +210,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AAF22EBB28F05EA700F94356 /* Build configuration list for PBXNativeTarget "omdbforloodos" */;
 			buildPhases = (
+				3C59DA2C24759235395C1B39 /* [CP] Check Pods Manifest.lock */,
 				AAF22EA328F05EA500F94356 /* Sources */,
 				AAF22EA428F05EA500F94356 /* Frameworks */,
 				AAF22EA528F05EA500F94356 /* Resources */,
+				2E48286498D6BBA9212EAF7B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = omdbforloodos;
+			packageProductDependencies = (
+				AAEB7B2C28F43F9B009B0AC5 /* SDWebImage */,
+				AAEB7B2E28F43F9B009B0AC5 /* SDWebImageMapKit */,
+			);
 			productName = omdbforloodos;
 			productReference = AAF22EA728F05EA500F94356 /* omdbforloodos.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +253,9 @@
 				Base,
 			);
 			mainGroup = AAF22E9E28F05EA500F94356;
+			packageReferences = (
+				AAEB7B2B28F43F9B009B0AC5 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = AAF22EA828F05EA500F94356 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,34 +272,82 @@
 			files = (
 				AAF22EB728F05EA700F94356 /* LaunchScreen.storyboard in Resources */,
 				AAF22EB428F05EA700F94356 /* Assets.xcassets in Resources */,
-				AAF22EB228F05EA500F94356 /* Main.storyboard in Resources */,
+				AAC6C87728F3FC3B009BD751 /* loodos.gif in Resources */,
+				AAF22ED428F18DA400F94356 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E48286498D6BBA9212EAF7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-omdbforloodos/Pods-omdbforloodos-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-omdbforloodos/Pods-omdbforloodos-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-omdbforloodos/Pods-omdbforloodos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C59DA2C24759235395C1B39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-omdbforloodos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AAF22EA328F05EA500F94356 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAF22EAF28F05EA500F94356 /* ViewController.swift in Sources */,
+				AA90EFCC28F3055000737DF1 /* NetworkErrorViewController.swift in Sources */,
+				AAC6C87D28F41ACF009BD751 /* MovieDetailViewController.swift in Sources */,
+				AAF22ED628F1C30E00F94356 /* Movie.swift in Sources */,
 				AAF22EAB28F05EA500F94356 /* AppDelegate.swift in Sources */,
+				AAF22EC628F1645A00F94356 /* SearchResultViewController.swift in Sources */,
 				AAF22EAD28F05EA500F94356 /* SceneDelegate.swift in Sources */,
+				AAF22ECE28F173D800F94356 /* APICaller.swift in Sources */,
+				AAF22EC428F1641200F94356 /* HomeViewController.swift in Sources */,
+				AA64FCCD28F4B68900F0C3A0 /* AnimationController.swift in Sources */,
+				AA90EFC828F3028E00737DF1 /* Reachability.swift in Sources */,
+				AA64FCC928F47C0300F0C3A0 /* CustomToast.swift in Sources */,
+				AAF22ED828F2CEC700F94356 /* MovieCollectionViewCell.swift in Sources */,
+				AA90EFD428F33AF300737DF1 /* LoadingView.swift in Sources */,
+				AAC6C87928F41573009BD751 /* MovieDetailViewModel.swift in Sources */,
+				AAC6C87B28F416F8009BD751 /* YoutubeSearchResponse.swift in Sources */,
+				AA90EFCA28F3031800737DF1 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AAF22EB028F05EA500F94356 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AAF22EB128F05EA500F94356 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AAF22EB528F05EA700F94356 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,17 +475,18 @@
 		};
 		AAF22EBC28F05EA700F94356 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55065D7DD99CB9E39A9B73BC /* Pods-omdbforloodos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = omdbforloodos/omdbforloodos.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T2L7FBP3NZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = omdbforloodos/Info.plist;
+				INFOPLIST_FILE = omdbforloodos/Core/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,23 +498,24 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		AAF22EBD28F05EA700F94356 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A62332D204E71B5627193761 /* Pods-omdbforloodos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = omdbforloodos/omdbforloodos.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T2L7FBP3NZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = omdbforloodos/Info.plist;
+				INFOPLIST_FILE = omdbforloodos/Core/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +527,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +553,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AAEB7B2B28F43F9B009B0AC5 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AAEB7B2C28F43F9B009B0AC5 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AAEB7B2B28F43F9B009B0AC5 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		AAEB7B2E28F43F9B009B0AC5 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AAEB7B2B28F43F9B009B0AC5 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AAF22E9F28F05EA500F94356 /* Project object */;
 }
