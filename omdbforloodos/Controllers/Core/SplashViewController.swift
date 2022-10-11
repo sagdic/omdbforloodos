@@ -11,7 +11,6 @@ import Gifu
 
 class SplashViewController: UIViewController {
     
-    
     private var remoteConfig = RemoteConfig.remoteConfig()
     let reachability = try! Reachability()
     let loadView = LoadingView()
@@ -55,11 +54,11 @@ class SplashViewController: UIViewController {
         view.backgroundColor = .systemBackground
         view.addSubview(centerLabel)
         view.addSubview(loadingView)
+        
         loadView.showLoadingView(on: self)
         applyConstraints()
         
-        setupRemoteConfigDefaults()
-        fetchRemoteConfig()
+        
         
     }
     
@@ -76,8 +75,12 @@ class SplashViewController: UIViewController {
             self.reachability.whenReachable = { reachability in
                 if reachability.connection == .wifi {
                     print("Reachable via WiFi")
+                    self.setupRemoteConfigDefaults()
+                    self.fetchRemoteConfig()
                 } else {
                     print("Reachable via Cellular")
+                    self.setupRemoteConfigDefaults()
+                    self.fetchRemoteConfig()
                 }
                 self.view.window?.rootViewController?.dismiss(animated: true)
             }
@@ -125,3 +128,5 @@ class SplashViewController: UIViewController {
             }
         }
 }
+
+

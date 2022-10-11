@@ -13,7 +13,7 @@ class SearchResultViewController: UIViewController {
 
     public let searchResultsCollectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
-        layout.itemSize = CGSize(width: UIScreen.main.bounds.width / 2 - 10, height: 200)
+        layout.itemSize = CGSize(width: UIScreen.main.bounds.width / 2 - 10, height: 300)
         layout.minimumInteritemSpacing = 0
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
         collectionView.register(MovieCollectionViewCell.self, forCellWithReuseIdentifier: MovieCollectionViewCell.identifier)
@@ -71,6 +71,10 @@ extension SearchResultViewController: UICollectionViewDataSource, UICollectionVi
 
             case .failure(let error):
                 print(error.localizedDescription)
+                DispatchQueue.main.async {
+                    CustomToast.show(message: "YoutubeAPI Quota Exceeded", bgColor: .red, textColor: .white, labelFont: .boldSystemFont(ofSize: 24), showIn: .top, controller: self)
+                }
+                
             }
         
         }

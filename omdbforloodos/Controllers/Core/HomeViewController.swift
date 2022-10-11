@@ -29,6 +29,11 @@ class HomeViewController: UIViewController {
         navigationController?.navigationBar.tintColor = UIColor(named: "loodosColor")
         navigationItem.searchController = searchController
         searchController.searchResultsUpdater = self
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
     }
 }
 
@@ -68,3 +73,4 @@ extension HomeViewController: UISearchResultsUpdating {
         }
     }
 }
+

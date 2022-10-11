@@ -7,6 +7,7 @@
 
 import Foundation
 
+//11.10.22 Youtube QUOTA EXCEEDED!!!
 struct Constants{
     //    posterbaseurl didn't use because api(not free) didn't return posterpath. it returns full url of amazon.
     //    static let posterBaseURL = "http://img.omdbapi.com"

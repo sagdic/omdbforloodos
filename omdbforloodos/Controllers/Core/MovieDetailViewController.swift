@@ -9,6 +9,8 @@ import UIKit
 import WebKit
 import Firebase
 
+// IF THE DETAILS PAGE DIDN'T OPEN THE YOUTUBE API KEY QUOTA EXCEEDED
+
 class MovieDetailViewController: UIViewController {
     
     private let titleLabel: UILabel = {

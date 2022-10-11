@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		AA64FCC928F47C0300F0C3A0 /* CustomToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA64FCC828F47C0300F0C3A0 /* CustomToast.swift */; };
-		AA64FCCD28F4B68900F0C3A0 /* AnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA64FCCC28F4B68900F0C3A0 /* AnimationController.swift */; };
 		AA90EFC828F3028E00737DF1 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA90EFC728F3028E00737DF1 /* Reachability.swift */; };
 		AA90EFCA28F3031800737DF1 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA90EFC928F3031800737DF1 /* SplashViewController.swift */; };
 		AA90EFCC28F3055000737DF1 /* NetworkErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA90EFCB28F3055000737DF1 /* NetworkErrorViewController.swift */; };
 		AA90EFD428F33AF300737DF1 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA90EFD328F33AF300737DF1 /* LoadingView.swift */; };
+		AA9A7DFE28F565FF009C2F13 /* AnalyticsLogScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = AA9A7DFD28F565FF009C2F13 /* AnalyticsLogScreen.png */; };
 		AAC6C87728F3FC3B009BD751 /* loodos.gif in Resources */ = {isa = PBXBuildFile; fileRef = AAC6C87628F3FC3B009BD751 /* loodos.gif */; };
 		AAC6C87928F41573009BD751 /* MovieDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC6C87828F41573009BD751 /* MovieDetailViewModel.swift */; };
 		AAC6C87B28F416F8009BD751 /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC6C87A28F416F8009BD751 /* YoutubeSearchResponse.swift */; };
@@ -38,11 +38,13 @@
 		A62332D204E71B5627193761 /* Pods-omdbforloodos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-omdbforloodos.release.xcconfig"; path = "Target Support Files/Pods-omdbforloodos/Pods-omdbforloodos.release.xcconfig"; sourceTree = "<group>"; };
 		AA64FCC728F4583300F0C3A0 /* omdbforloodos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = omdbforloodos.entitlements; sourceTree = "<group>"; };
 		AA64FCC828F47C0300F0C3A0 /* CustomToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToast.swift; sourceTree = "<group>"; };
-		AA64FCCC28F4B68900F0C3A0 /* AnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationController.swift; sourceTree = "<group>"; };
 		AA90EFC728F3028E00737DF1 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		AA90EFC928F3031800737DF1 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		AA90EFCB28F3055000737DF1 /* NetworkErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrorViewController.swift; sourceTree = "<group>"; };
 		AA90EFD328F33AF300737DF1 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		AA9A7DFD28F565FF009C2F13 /* AnalyticsLogScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AnalyticsLogScreen.png; sourceTree = "<group>"; };
+		AA9A7DFF28F573C6009C2F13 /* general_test_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = general_test_video.mp4; sourceTree = "<group>"; };
+		AA9A7E0028F573C6009C2F13 /* network_test_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = network_test_video.mp4; sourceTree = "<group>"; };
 		AAC6C87628F3FC3B009BD751 /* loodos.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loodos.gif; sourceTree = "<group>"; };
 		AAC6C87828F41573009BD751 /* MovieDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewModel.swift; sourceTree = "<group>"; };
 		AAC6C87A28F416F8009BD751 /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
@@ -111,6 +113,16 @@
 			path = Core;
 			sourceTree = "<group>";
 		};
+		AA9A7DFC28F565C7009C2F13 /* ScreenShots&UsageVideo */ = {
+			isa = PBXGroup;
+			children = (
+				AA9A7DFF28F573C6009C2F13 /* general_test_video.mp4 */,
+				AA9A7E0028F573C6009C2F13 /* network_test_video.mp4 */,
+				AA9A7DFD28F565FF009C2F13 /* AnalyticsLogScreen.png */,
+			);
+			path = "ScreenShots&UsageVideo";
+			sourceTree = "<group>";
+		};
 		AAF22E9E28F05EA500F94356 = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +144,7 @@
 		AAF22EA928F05EA500F94356 /* omdbforloodos */ = {
 			isa = PBXGroup;
 			children = (
+				AA9A7DFC28F565C7009C2F13 /* ScreenShots&UsageVideo */,
 				AAF22ED328F18DA400F94356 /* GoogleService-Info.plist */,
 				AA64FCC728F4583300F0C3A0 /* omdbforloodos.entitlements */,
 				AAF22ED928F2CF1600F94356 /* Core */,
@@ -198,7 +211,6 @@
 				AAF22EB328F05EA700F94356 /* Assets.xcassets */,
 				AAF22EB528F05EA700F94356 /* LaunchScreen.storyboard */,
 				AAF22EB828F05EA700F94356 /* Info.plist */,
-				AA64FCCC28F4B68900F0C3A0 /* AnimationController.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -270,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9A7DFE28F565FF009C2F13 /* AnalyticsLogScreen.png in Resources */,
 				AAF22EB728F05EA700F94356 /* LaunchScreen.storyboard in Resources */,
 				AAF22EB428F05EA700F94356 /* Assets.xcassets in Resources */,
 				AAC6C87728F3FC3B009BD751 /* loodos.gif in Resources */,
@@ -334,7 +347,6 @@
 				AAF22EAD28F05EA500F94356 /* SceneDelegate.swift in Sources */,
 				AAF22ECE28F173D800F94356 /* APICaller.swift in Sources */,
 				AAF22EC428F1641200F94356 /* HomeViewController.swift in Sources */,
-				AA64FCCD28F4B68900F0C3A0 /* AnimationController.swift in Sources */,
 				AA90EFC828F3028E00737DF1 /* Reachability.swift in Sources */,
 				AA64FCC928F47C0300F0C3A0 /* CustomToast.swift in Sources */,
 				AAF22ED828F2CEC700F94356 /* MovieCollectionViewCell.swift in Sources */,
