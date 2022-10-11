@@ -132,6 +132,7 @@
 		AAF22EA928F05EA500F94356 /* omdbforloodos */ = {
 			isa = PBXGroup;
 			children = (
+				AAF22ED328F18DA400F94356 /* GoogleService-Info.plist */,
 				AA64FCC728F4583300F0C3A0 /* omdbforloodos.entitlements */,
 				AAF22ED928F2CF1600F94356 /* Core */,
 				AAF22EC228F098AC00F94356 /* Controllers */,
@@ -192,7 +193,6 @@
 			isa = PBXGroup;
 			children = (
 				AAC6C87628F3FC3B009BD751 /* loodos.gif */,
-				AAF22ED328F18DA400F94356 /* GoogleService-Info.plist */,
 				AAF22EAA28F05EA500F94356 /* AppDelegate.swift */,
 				AAF22EAC28F05EA500F94356 /* SceneDelegate.swift */,
 				AAF22EB328F05EA700F94356 /* Assets.xcassets */,

@@ -24,7 +24,7 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.setHidesBackButton(true, animated: true)
-        view.backgroundColor = .white
+        view.backgroundColor = .systemBackground
         navigationController?.navigationItem.largeTitleDisplayMode = .always
         navigationController?.navigationBar.tintColor = UIColor(named: "loodosColor")
         navigationItem.searchController = searchController
@@ -56,7 +56,7 @@ extension HomeViewController: UISearchResultsUpdating {
                     print(error.localizedDescription)
                     resultsController.movies.removeAll()
                     resultsController.searchResultsCollectionView.reloadData()
-                        CustomToast.show(message: "No results.", bgColor: .red, textColor: .white, labelFont: .boldSystemFont(ofSize: 24), showIn: .bottom, controller: resultsController)
+                        CustomToast.show(message: "No results.", bgColor: .red, textColor: .white, labelFont: .boldSystemFont(ofSize: 24), showIn: .top, controller: resultsController)
                     self.loadingView.dismissLoadingView()
                     
                 }

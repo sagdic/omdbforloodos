@@ -63,8 +63,6 @@ let gcmMessageIDKey = "gcm.Message_ID"
 
 }
 
-//MARK: - UNUserNotificationCenterDelegate
-
 
 extension AppDelegate: UNUserNotificationCenterDelegate {
   // Receive displayed notifications for iOS 10 devices.
